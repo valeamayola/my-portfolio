@@ -8,23 +8,23 @@ export default function NavBar() {
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="#1f2937"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </div>
-                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a href="/" className="text-pink-700 font-medium">Inicio</a></li>
-                        <li><a href="#about" className="text-pink-700 font-medium">Sobre mi</a></li>
-                        <li><a href="#skills" className="text-pink-700 font-medium">Skills</a></li>
-                        <li><a href="#portfolio" className="text-pink-700 font-medium">Portfolio</a></li>
-                        <li><a href="#contact" className="text-pink-700 font-medium">Contacto</a></li>
+                    <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-zinc-700 rounded-box w-52">
+                        <li><a href="/" className="text-zinc-50 font-medium">Inicio</a></li>
+                        <li><a href="#about" className="text-zinc-50 font-medium">Sobre mi</a></li>
+                        <li><a href="#skills" className="text-zinc-50 font-medium">Skills</a></li>
+                        <li><a href="#portfolio" className="text-zinc-50 font-medium">Portfolio</a></li>
+                        <li><a href="#contact" className="text-zinc-50 font-medium">Contacto</a></li>
                     </ul>
                 </div>
-                <Link href="/" className="text-lg font-semibold text-gray-800 hover:bg-transparent">Valentina.</Link>
+                <Link href="/" className="text-lg font-semibold text-zinc-50 hover:bg-transparent">Valentina.</Link>
             </div>
             <div className="navbar-end hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 items-center">
-                    <li><a href="/" className="font-medium text-gray-800">Inicio</a></li>
-                    <li><a href="#about" className="font-medium text-gray-800">Sobre mi</a></li>
-                    <li><a href="#skills" className="font-medium text-gray-800">Skills</a></li>
-                    <li><a href="#portfolio" className="font-medium text-gray-800">Portfolio</a></li>
-                    <a href="#contact" className="btn border-2 border-pink-100 btn-sm bg-pink-100 font-bold text-pink-600 rounded-full hover:bg-transparent hover:text-pink-100 hover:border-pink-100">Contáctame</a>
+                    <li><a href="/" className="font-medium text-zinc-50">Inicio</a></li>
+                    <li><a href="#about" className="font-medium text-zinc-50">Sobre mi</a></li>
+                    <li><a href="#skills" className="font-medium text-zinc-50">Skills</a></li>
+                    <li><a href="#portfolio" className="font-medium text-zinc-50">Portfolio</a></li>
+                    <a href="#contact" className="btn border-2 border-sky-300 btn-sm bg-sky-300 font-bold text-sky-600 rounded-full hover:bg-transparent hover:text-sky-300 hover:border-sky-300">Contáctame</a>
                 </ul>
             </div>
         </div>
