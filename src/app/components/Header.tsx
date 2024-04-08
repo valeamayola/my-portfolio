@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="h-screen items-center align-center justify-center m-auto">
+        <header className="h-screen flex items-center align-center justify-center m-auto">
             <h1 className="text-3xl md:text-5xl font-bold text-center px-2 md:px-40 text-gray-800">Hola! Mi nombre es Valentina y soy <span className="text-pink-600">desarrolladora front-end.</span></h1>
             <div className="flex justify-center mt-5">
                 <Link href="https://www.linkedin.com/in/valentina-amayola/" target="_blank">
