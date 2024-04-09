@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section id="about" className="bg-stone-300 p-10 md:p-20 items-start">
+        <section id="about" className="bg-stone-100 p-10 md:p-20 items-start">
             <h1 className="text-3xl md:text-5xl font-bold text-violet-400">Sobre mi</h1>
             <p className="font-medium text-lg md:text-xl mt-5">
                 Mi nombre es Valentina, soy de Tucumán, Argentina.
