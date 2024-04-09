@@ -8,7 +8,7 @@ import Skills from "./components/Skills";
 export default function Home() {
   return (
     <>
-      <div className="h-max md:h-screen bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-zinc-500 to-zinc-600">
+      <div className="h-max md:h-screen bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-zinc-700 to-zinc-800">
         <NavBar />
         <Header />
       </div>
