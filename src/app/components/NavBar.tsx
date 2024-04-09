@@ -24,7 +24,7 @@ export default function NavBar() {
                     <li><a href="#about" className="font-medium text-zinc-50">Sobre mi</a></li>
                     <li><a href="#skills" className="font-medium text-zinc-50">Skills</a></li>
                     <li><a href="#portfolio" className="font-medium text-zinc-50">Portfolio</a></li>
-                    <a href="#contact" className="btn border-2 border-sky-300 btn-sm bg-sky-300 font-bold text-sky-600 rounded-full hover:bg-transparent hover:text-sky-300 hover:border-sky-300">Contáctame</a>
+                    <a href="#contact" className="btn border-2 border-violet-400 btn-sm bg-violet-400 font-bold text-violet-600 rounded-full hover:bg-transparent hover:text-violet-400 hover:border-violet-400">Contáctame</a>
                 </ul>
             </div>
         </div>
