@@ -1,6 +1,6 @@
 export default function About() {
     return (
-        <section id="about" className="bg-[#EAE7E4] p-10 md:p-20 items-start">
+        <section id="about" className="bg-[url('banner.png')] p-10 md:p-20 items-start">
             <h1 className="text-4xl md:text-7xl font-extrabold">Hola,</h1>
             <p className="font-medium text-lg md:text-3xl mt-5">
                 Mi nombre es Valentina, soy desarrolladora front-end apasionada por el diseño y el desarrollo web.
