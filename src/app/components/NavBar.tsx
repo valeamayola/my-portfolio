@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
     return (
-        <div className="navbar bg-transparent px-5">
+        <div className="navbar bg-transparent px-10 py-5">
             <div className="navbar-start">
                 <div className="dropdown">
                     <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
